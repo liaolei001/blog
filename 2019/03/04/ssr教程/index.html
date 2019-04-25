@@ -87,7 +87,7 @@
 <meta property="og:site_name" content="暖阳如初">
 <meta property="og:description" content="教程很简单，整个教程分三步：第一步：购买VPS服务器 第二步：一键部署VPS服务器 第三步：一键加速VPS服务器 （锐速安装，推荐） 第一步：购买VPS服务器VPS服务器需要选择国外的，首选国际知名的vultr，速度不错、稳定且性价比高，按小时计费，能够随时开通和删除服务器，新服务器即是新ip。 vultr注册地址:http://www.vultr.com（全球15个服务器位置可选，KVM框架，最">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:image" content="https://www.vultr.com/media/banner_1.png">
+<meta property="og:image" content="http://www.vultr.com/dist/img/brand/banner_1.png">
 <meta property="og:image" content="https://raw.githubusercontent.com/Alvin9999/pac2/master/pp100.png">
 <meta property="og:image" content="https://raw.githubusercontent.com/Alvin9999/pac2/master/pp101.png">
 <meta property="og:image" content="https://raw.githubusercontent.com/Alvin9999/crp_up/master/pac%E6%95%99%E7%A8%8B01.png">
@@ -109,11 +109,11 @@
 <meta property="og:image" content="https://www.baishitou.cn/wp-content/uploads/2019/04/null20190416104011.jpg">
 <meta property="og:image" content="https://www.baishitou.cn/wp-content/uploads/2019/04/null20190416112946.jpg">
 <meta property="og:image" content="https://www.baishitou.cn/wp-content/uploads/2019/04/null20190416113550.jpg">
-<meta property="og:updated_time" content="2019-04-24T03:50:08.577Z">
+<meta property="og:updated_time" content="2019-04-25T11:50:44.595Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="使用vps搭建ssr">
 <meta name="twitter:description" content="教程很简单，整个教程分三步：第一步：购买VPS服务器 第二步：一键部署VPS服务器 第三步：一键加速VPS服务器 （锐速安装，推荐） 第一步：购买VPS服务器VPS服务器需要选择国外的，首选国际知名的vultr，速度不错、稳定且性价比高，按小时计费，能够随时开通和删除服务器，新服务器即是新ip。 vultr注册地址:http://www.vultr.com（全球15个服务器位置可选，KVM框架，最">
-<meta name="twitter:image" content="https://www.vultr.com/media/banner_1.png">
+<meta name="twitter:image" content="http://www.vultr.com/dist/img/brand/banner_1.png">
 
 
 
@@ -333,6 +333,17 @@
 
           
           
+             <span id="/2019/03/04/ssr教程/" class="leancloud_visitors" data-flag-title="使用vps搭建ssr">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">阅读次数&#58;</span>
+               
+                 <span class="leancloud-visitors-count"></span>
+             </span>
+          
 
           
 
@@ -358,7 +369,7 @@
 <p>第三步：一键加速VPS服务器 （锐速安装，推荐）</p>
 <h3 id="第一步：购买VPS服务器"><a href="#第一步：购买VPS服务器" class="headerlink" title="第一步：购买VPS服务器"></a><strong>第一步：购买VPS服务器</strong></h3><p>VPS服务器需要选择国外的，首选国际知名的vultr，速度不错、稳定且性价比高，按小时计费，能够随时开通和删除服务器，新服务器即是新ip。</p>
 <p>vultr注册地址:<a href="https://www.vultr.com/?ref=8046196" target="_blank" rel="noopener">http://www.vultr.com</a>（全球15个服务器位置可选，KVM框架，最低2.5美元/月。）</p>
-<p><img src="https://www.vultr.com/media/banner_1.png" alt></p>
+<p><img src="http://www.vultr.com/dist/img/brand/banner_1.png" alt></p>
 <p>虽然是英文界面，但是现在的浏览器都有网页翻译功能，鼠标点击右键，选择网页翻译即可翻译成中文。</p>
 <p>注册并邮件激活账号，充值后即可购买服务器。充值方式是paypal（首选）或支付宝，使用paypal有银行卡（包括信用卡）即可。paypal注册地址：<a href="https://www.paypal.com/" target="_blank" rel="noopener">https://www.paypal.com</a>（paypal是国际知名的第三方支付服务商，注册一下账号，绑定银行卡即可购买国外商品）</p>
 <p><del>2.5美元/月的服务器配置信息：单核 512M内存 20G SSD硬盘 带宽峰值100M 500G流量/月 (此配置已下架)</del></p>
@@ -802,6 +813,113 @@
 
 
   
+
+  
+  <script src="https://cdn1.lncld.net/static/js/av-core-mini-0.6.4.js"></script>
+  <script>AV.initialize("AeaHO0mMKbD0lToz977wrPvl-gzGzoHsz", "xmRhIDL5gh6bSJvTYkybCnHz");</script>
+  <script>
+    function showTime(Counter) {
+      var query = new AV.Query(Counter);
+      var entries = [];
+      var $visitors = $(".leancloud_visitors");
+
+      $visitors.each(function () {
+        entries.push( $(this).attr("id").trim() );
+      });
+
+      query.containedIn('url', entries);
+      query.find()
+        .done(function (results) {
+          var COUNT_CONTAINER_REF = '.leancloud-visitors-count';
+
+          if (results.length === 0) {
+            $visitors.find(COUNT_CONTAINER_REF).text(0);
+            return;
+          }
+
+          for (var i = 0; i < results.length; i++) {
+            var item = results[i];
+            var url = item.get('url');
+            var time = item.get('time');
+            var element = document.getElementById(url);
+
+            $(element).find(COUNT_CONTAINER_REF).text(time);
+          }
+          for(var i = 0; i < entries.length; i++) {
+            var url = entries[i];
+            var element = document.getElementById(url);
+            var countSpan = $(element).find(COUNT_CONTAINER_REF);
+            if( countSpan.text() == '') {
+              countSpan.text(0);
+            }
+          }
+        })
+        .fail(function (object, error) {
+          console.log("Error: " + error.code + " " + error.message);
+        });
+    }
+
+    function addCount(Counter) {
+      var $visitors = $(".leancloud_visitors");
+      var url = $visitors.attr('id').trim();
+      var title = $visitors.attr('data-flag-title').trim();
+      var query = new AV.Query(Counter);
+
+      query.equalTo("url", url);
+      query.find({
+        success: function(results) {
+          if (results.length > 0) {
+            var counter = results[0];
+            counter.fetchWhenSave(true);
+            counter.increment("time");
+            counter.save(null, {
+              success: function(counter) {
+                var $element = $(document.getElementById(url));
+                $element.find('.leancloud-visitors-count').text(counter.get('time'));
+              },
+              error: function(counter, error) {
+                console.log('Failed to save Visitor num, with error message: ' + error.message);
+              }
+            });
+          } else {
+            var newcounter = new Counter();
+            /* Set ACL */
+            var acl = new AV.ACL();
+            acl.setPublicReadAccess(true);
+            acl.setPublicWriteAccess(true);
+            newcounter.setACL(acl);
+            /* End Set ACL */
+            newcounter.set("title", title);
+            newcounter.set("url", url);
+            newcounter.set("time", 1);
+            newcounter.save(null, {
+              success: function(newcounter) {
+                var $element = $(document.getElementById(url));
+                $element.find('.leancloud-visitors-count').text(newcounter.get('time'));
+              },
+              error: function(newcounter, error) {
+                console.log('Failed to create');
+              }
+            });
+          }
+        },
+        error: function(error) {
+          console.log('Error:' + error.code + " " + error.message);
+        }
+      });
+    }
+
+    $(function() {
+      var Counter = AV.Object.extend("Counter");
+      if ($('.leancloud_visitors').length == 1) {
+        addCount(Counter);
+      } else if ($('.post-title-link').length > 1) {
+        showTime(Counter);
+      }
+    });
+  </script>
+
+
 
   
 
